@@ -1,0 +1,176 @@
+html{
+    scroll-behavior: smooth;
+    
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(31, 30, 30);
+}
+body,html{
+    height: 100%;
+}
+body,h1,p{
+    font-family:fantasy
+}
+.navbar{
+    height: 50px;
+    margin-top: 0px;
+    padding: 0px;
+    background-color:black ;
+}
+.navbar ul li{
+    padding: 13px;
+    float: inline-start;
+    margin-right: 20px;
+    
+}
+.navbar ul li a{
+    color: aliceblue;
+    text-align: center;
+    text-decoration: none;
+    transition: color .2s ease-in-out;
+}
+.navbar ul li a:hover{
+    color: red;
+    transition: 0.5s;
+
+}
+
+.cont1{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(./pizza\ 2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+.centertitle{
+    text-align: center;
+    color: aliceblue;
+    padding-top: 100px;
+}
+.centertitle p{
+    margin-top: 30px;
+    background-color: black;
+    width: 150px;
+    margin-left: 310px;   
+}
+.centertitle p:hover{
+    background-color: red;
+    transition: 0.5s;
+}
+.centertitle p a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.centertitle p a:hover{
+    color: black;
+    transition: 0.5s;
+    
+}
+.bottomleft{
+    height: 20px;
+    width: 150px;
+    background-color: black;
+    color: aliceblue;
+    margin-top: 100px;
+    margin-left: 10px;
+    text-align: center;
+}
+.menu{
+    margin: 100px;
+    background-color: black;
+    width: 500px;
+}
+.menutext{
+    text-align: center;
+    color: aliceblue;
+    padding-top: 20px;
+}
+.pizzatitle{
+    font-size: 30px;
+    text-align: center;
+    background-color: red;
+    color: black;
+}
+.pizzatitle:hover{
+   font-size: 35px;
+   color: aliceblue;
+   transition: 0.5s; 
+}
+.menudescription{
+    margin-top: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: black;
+    color: aliceblue;
+    padding-bottom: 30px;
+}
+.menudescription b{
+    font-size: 20px;
+    text-decoration: underline;    
+}
+.menudescription span{
+    font-size: 20px;
+    background-color: red;
+    border-radius: 100px;
+    margin-left: 295px;
+}
+.menudescription span:hover{
+    font-size: 20px;
+    background-color: aliceblue;
+    color: black;
+    border-radius: 0px;
+    transition: 0.5s;
+
+}
+.description{
+    font-size: 15px;
+}
+
+.cont2{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(./chef.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.centertitle2{
+    text-align: center;
+    color: aliceblue;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+#aboutusdec{
+    margin-top: 30px;
+    width: 150px;
+    margin-left: 310px; 
+    width: 80%;
+    margin: 50px 84px;
+    font-size: 15px;
+    padding-bottom: 50px;
+}
+.cont3{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(./contactpizza2.PNG);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#infotag{
+text-align: start;
+}
+.membershipform{
+width: 500px;
+text-align: center;
+margin-left: 130px;
+}
+.footer{
+background-color: black;
+color: aliceblue;
+font-size: 10px;
+}
